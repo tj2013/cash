@@ -35,6 +35,7 @@ Go to branch *cas-support-cql*
     > git checkout cas-support-cql
 
 Go to cassandra-handler folder run the maven package command.
+Change pom.xml, find hadoop-core, change its version to a newer one, e.g. 1.2.1
 
     > mvn package
 
